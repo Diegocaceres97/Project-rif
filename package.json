@@ -4,11 +4,15 @@
   "description": "Proyecto para creacion de sitio web privado",
   "main": "index.js",
   "scripts": {
-    "start": "live-server"
+    "start": "live-server",
+    "tail": "tailwindcss build src/estilo.css -o public/css/final.css"
   },
   "author": "Diego&Victor",
   "license": "ISC",
   "devDependencies": {
     "live-server": "^1.2.1"
+  },
+  "dependencies": {
+    "tailwindcss": "^2.0.4"
   }
 }
